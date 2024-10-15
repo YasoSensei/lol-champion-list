@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, #f1f2ee, #303038)
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 75px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 0px;
+}
+
+header h3 {
+    font-size: 23px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.c-card {
+    text-align: center;
+    max-width: 1200px;
+    width: 250px;
+    background-color: #2e2e46;
+    border-style: solid;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 9px 8px 7px 6px #303038;
+}
+
+.c-card h5 {
+    color: #f1f2ee;
+    font-size: 25px;
+    font-family: "Teko", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.c-card:hover {
+    background-color: #44446a;
+}
